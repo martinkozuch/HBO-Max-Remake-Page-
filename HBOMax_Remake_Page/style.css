@@ -1,0 +1,357 @@
+body {
+    margin: 0em;
+    padding: 0em;
+    width: 100%;
+    height: 340vh;
+    background: rgb(4,4,4);
+    background: linear-gradient(60deg, rgba(4,4,4,1) 17%, rgba(32,5,45,1) 38%, rgba(35,8,48,1) 60%, rgba(15,2,22,1) 75%);
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:100% ;
+}
+
+.section_top {
+    width:100% ;
+    height: 85vh;
+    position: relative;
+    background-image: url(screensgood/loseposkys_good.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: change 15s infinite ease-in-out;
+    display: flex;
+    align-items: flex-start;
+}
+
+.nav_bar {
+    background-color: rgba(15, 15, 15, 0.331);
+    width: 100%;
+    height: 7vh;
+    background-image: url(imghbo/kisspng-brand-logo-white-font-it-s-not-tv-watching-hbo-in-the-posttelevision-era-5b173a824a1ce7.6961657315282489623036.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 6em 6em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+.left_bar {
+    display: flex;
+    flex-direction: row;
+    margin-left: 3%;
+}
+
+.right_bar {
+    display: flex;
+    flex-direction: row;
+    margin-right: 3%;
+}
+
+.left_bar li, .right_bar li{
+    list-style: none;
+}
+
+.left_bar a, .right_bar a {
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-right: 2em;
+    color: rgba(246, 246, 246, 0.709);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.left_bar a:hover, .right_bar a:hover {
+    color: aliceblue;
+}
+
+.last {
+    background-color: rgba(255, 255, 255, 0.307);
+    padding: 0.3em 1em;
+    border-radius: 3px;
+}
+
+.last:hover {
+    background-color: rgba(223, 223, 223, 0.687);
+}
+
+.section_mid {
+ display: flex;  
+ width: 100%;
+ height: 34em; 
+ background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 8%, rgba(0,0,0,0) 51%);
+justify-content: flex-start;
+flex-direction: column;
+}
+
+.heading {
+    display: flex;
+    color: aliceblue;
+    height: 8vh;
+    align-items: flex-end;
+    margin-left: 2.5%;
+    font-size: 0.7em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+
+.news_bar {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: center;   
+}
+
+.slide {
+    width: 21em;
+    height: 32em;
+    margin-right:1% ;
+    background-repeat: no-repeat;
+    transition: 0.2s;   
+}
+
+.slide:hover {
+    border: 3px solid rgba(92, 36, 195, 0.734);
+}
+
+.new_1 {
+    background-image: url(mini2/pohotovost2.png);
+}
+
+.new_2 {
+    background-image: url(mini2/loseposkys2.png);   
+}
+
+.new_3 {
+    background-image: url(mini2/morestromov2.png); 
+}
+
+.new_4 {
+    background-image: url(mini2/umma2.png);
+}
+
+.new_5 {
+    background-image: url(mini2/vosne2.png);
+}
+
+.section_mid2 {
+    display: flex;  
+    width: 100%;
+    height: 30em; 
+    justify-content: center;
+    flex-direction: column;
+   }
+
+.news_bar2 {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: space-evenly; 
+}
+
+   .slide2 {
+    width: 13em;
+    height: 19em;
+    margin-right:1% ;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+}
+
+.slide2:hover {
+    border: 2px solid rgba(92, 36, 195, 0.791);
+}
+
+.sk_1 {
+    background-image: url(sk/roddraka_sk.png);
+    background-position: center;
+}
+
+.sk_2 {
+    background-image: url(sk/rickmorty_sk.png);
+    background-position: center;
+}
+
+.sk_3 {
+    background-image: url(sk/bigbang_sk.png);
+    background-position: center;  
+}
+
+.sk_4 {
+    background-image: url(sk/elvis_SK.png);
+    background-position: center;
+}
+
+.sk_5 {
+    background-image: url(sk/GOD_SK.png);
+    background-position: center;
+}
+
+.sk_6 {
+    background-image: url(sk/friends_SK.png);
+    background-position: center;
+}
+
+.sk_7 {
+    background-image: url(sk/GBusters_SK.png);
+    background-position: center;
+}
+
+.sk_8 {
+    background-image: url(sk/topgunmini.png);
+    background-position: center;
+}
+
+.sk_9 {
+    background-image: url(sk/westworldmini.png);
+    background-position: center;
+}
+
+.sk_10 {
+    background-image: url(sk/harrypottermini.png);
+    background-position: center;
+}
+
+.section_morty {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly ;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.morty_content {
+    color: aliceblue;
+}
+
+.morty_back {
+    width: 38em;
+    height: 11em;
+    margin-right: 10em;
+}
+
+.morty_image {
+    background-image: url(batman/rickmortybig.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 55em;
+    height: 30em;
+    margin-right: 10em;
+}
+
+.morty_list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start ;
+    width: 26em;
+}
+
+.morty_list li {
+    list-style: none;
+    margin-right: 4em;
+}
+
+.morty_list a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.fa-play {
+    border: 3px solid white;
+    padding: 1.6em;
+    border-radius: 50%;
+    transition: 0.1s;
+}
+
+.fa-play:hover {
+    border: 3px solid rgba(152, 62, 255, 0.848);
+}
+
+.last_morty_list {
+    background-color: rgba(255, 248, 248, 0.122);
+    padding: 0.5em 2em;
+    border-radius: 3px;
+    transition: 0.1s;
+}
+
+.last_morty_list:hover {
+    background-color: black;
+    border: 2px solid rgba(152, 62, 255, 0.848);
+}
+
+.morty_buttons {
+    margin-top: 3.1em;
+}
+
+.section_mid3 {
+    display: flex;  
+    width: 100%;
+    height: 56em; 
+    justify-content: center;
+    flex-direction: column;
+ }
+
+.news_bar3 {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: space-evenly;
+}
+
+ .slide3 {
+    width: 50em;
+    height: 19em;
+    margin-right:1% ;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+}
+
+.slide3:hover {
+    border: 2px solid rgba(92, 36, 195, 0.791);
+}
+
+.k4_1 {
+    background-image: url(k4good/GODbig3good.png);
+    background-position: center;
+}
+
+.k4_2 {
+    background-image: url(k4good/batmanbig3good.png);
+    background-position: center;
+}
+
+.k4_3 {
+    background-image: url(k4good/matrixbig3good.png);
+    background-position: center;
+}
+
+@keyframes change {
+
+    0%{
+        background-image:url(screensgood/pohotovost_good.png) ;
+    }
+
+    25%{
+        background-image:url(screensgood/dobryboj_good.png) ;
+    }
+
+    50%{
+        background-image:url(screensgood/pribehsluzobnicky_good.png) ;
+    }
+
+    75%{
+        background-image:url(screensgood/loseposkys_good.png) ;
+    }
+
+    100%{
+        background-image:url(screensgood/roddraka_good.png) ;
+    }
+
+
+}
+
+
